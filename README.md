@@ -36,4 +36,4 @@ Link- https://www.redbus.in/
 Format: The scraped data will be stored in a SQL database.
 Required Fields: Bus routes Link,Bus route Name, Bus name, Bus Type(Sleeper/Seater),  Departing Time, Duration, Reaching_Time, Star-rating, Price, Seat_availability.
 
-Run streamlit run redbus.py in command window
+Run---> streamlit run redbus.py in command window
