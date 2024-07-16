@@ -2,10 +2,8 @@
 Project Title
 
 Redbus Data Scraping with Selenium & Dynamic Filtering using Streamlit
-Skills take away From This Project
-Web Scraping using Selenium, Python, Streamlit , SQL
-Domain
-Transportation
+Skills take away From This Project:Web Scraping using Selenium, Python, Streamlit , SQL
+Domain: Transportation
 
 
 Problem Statement:
