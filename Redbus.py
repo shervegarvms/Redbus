@@ -18,7 +18,7 @@ cursor = con.cursor()
 # Function to scrape data
 def scrape_data(source, destination, date):
     formatted_date = date.strftime("%d-%b-%Y")
-    url = f"https://www.redbus.in/bus-tickets/{source.lower()}-to-{destination.lower()}?fromCityName={source}&toCityName={destination}&onward={formatted_date}"#&opId=0&busType=Any"
+    url = f"https://www.redbus.in/bus-tickets/{source.lower()}-to-{destination.lower()}?fromCityName={source}&toCityName={destination}&onward={formatted_date}&opId=0&busType=Any"
     driver.get(url)
     data = []
     try:
@@ -75,3 +75,4 @@ if st.button("Scrape Data"):
             st.write(f"Bus Name: {route['bus_name']}, Type: {route['bus_type']}, Departure: {route['departure_time']}, Arrival: {route['arrival_time']}, Fare: {route['price']}")
     else:
         st.error("No data found or an error occurred.")
+
